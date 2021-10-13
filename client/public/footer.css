@@ -1,0 +1,178 @@
+.main {
+  background-color: #1a202c;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+}
+
+footer {
+  margin-bottom: 50px;
+  margin-top: 80px;
+  width: 100%;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.col:nth-child(2),
+.col:nth-child(3) {
+  flex-basis: 15%;
+}
+
+.logo {
+  height: 100px;
+  width: 150px;
+  margin-bottom: 47px;
+  font-size: larger;
+  font-weight: 400;
+  color: #b77920;
+}
+
+.col h2 {
+  font-weight: 700;
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  color: #b77920;
+  text-transform: uppercase;
+}
+
+.col h3 {
+  margin-top: 28px;
+}
+
+.email-id {
+  width: fit-content;
+  border-bottom: 1px solid #b77920;
+  margin: 20px 0;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+footer form {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #b77920;
+  margin-bottom: 50px;
+}
+
+form .far {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+footer form input {
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+}
+
+form button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+form button .fas {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.social-icons .fab {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.social-icons .fab:hover {
+  background-color: #b77920;
+}
+
+button .fas:hover {
+  color: #b77920;
+}
+
+hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #b77920;
+  margin: 20px auto;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.underline {
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+
+@keyframes moving {
+  0% {
+    left: -20px;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  footer {
+    bottom: unset;
+  }
+  .col {
+    flex-basis: 100%;
+  }
+  .col:nth-child(2),
+  .col:nth-child(3) {
+    flex-basis: 100%;
+  }
+}
