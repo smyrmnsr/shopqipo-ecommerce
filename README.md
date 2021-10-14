@@ -1,5 +1,5 @@
 # Project Demo
-![Alt text](https://github.com/smyrmnsr/shopqipo-ecommerce/blob/main/Screenshot%20(49).png)
+![Alt text](https://github.com/smyrmnsr/shopqipo-ecommerce/blob/main/shopqipo-desktop.png)
 
 ## Getting Started
 
