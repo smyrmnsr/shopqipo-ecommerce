@@ -1,5 +1,5 @@
 # Project Demo
-![Desktop photos](https://github.com/smyrmnsr/shopqipo-ecommerce/blob/main/shopqipo-desktop.png)
+![Desktop photos](https://github.com/smyrmnsr/shopqipo-ecommerce/blob/main/shopqipo-copy.png)
 ![Mobile photos](https://github.com/smyrmnsr/shopqipo-ecommerce/blob/main/mobile-shopqipo.png)
 
 ## Getting Started
