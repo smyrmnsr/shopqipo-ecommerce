@@ -1,6 +1,9 @@
 # Project Demo
-![Desktop photos](https://github.com/smyrmnsr/shopqipo-ecommerce/blob/main/shopqipo-desktop.png)
-![Mobile photos](https://github.com/smyrmnsr/shopqipo-ecommerce/blob/main/mobile-shopqipo.png)
+![Desktop photos](https://github.com/smyrmnsr/shopqipo-ecommerce/blob/main/shopqipo-home.png)
+![Desktop photos](https://github.com/smyrmnsr/shopqipo-ecommerce/blob/main/shopqipo-dashboard.png)
+![Desktop photos](https://github.com/smyrmnsr/shopqipo-ecommerce/blob/main/shopqipo-cart.png)
+![Mobile photos](https://github.com/smyrmnsr/shopqipo-ecommerce/blob/main/ahopqipo-mobile.png)
+![Mobile photos](https://github.com/smyrmnsr/shopqipo-ecommerce/blob/main/ahopqipo-mobile-pages.png)
 
 ## Getting Started
 
