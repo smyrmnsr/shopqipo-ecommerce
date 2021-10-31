@@ -11,7 +11,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-NPM / Yarn and Node.js installed
+* NPM / Yarn and Node.js installed
+* MongoDB
 
 ### Installing
 
