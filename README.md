@@ -29,15 +29,15 @@ cd client && npm install
 
 ### Running the app
 
-Open a terminal on server directory
+Open a terminal on root directory
 
 ```
-npm run start:dev
+npm run start
 ```
 
 and open another terminal on client directory
 ```
-npm run start
+npm run client
 ```
 
 Access the web app at http://localhost:3000/
