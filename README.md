@@ -14,6 +14,13 @@ These instructions will get you a copy of the project up and running on your loc
 * NPM / Yarn and Node.js installed
 * MongoDB
 
+## How To Run
+Create an MongoDB URI connection parameter in `/config.env` with your MongoDB URI:
+```
+ATLAS_URI=mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+PORT=5000
+```
+
 ### Installing
 
 Installing NPM modules on both client and server folders
