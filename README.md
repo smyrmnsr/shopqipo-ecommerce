@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* NPM / Yarn and Node.js installed
+* [NPM](https://docs.npmjs.com/cli/v7/commands/npm-install) and [Node.js](https://nodejs.org/en/) installed
 * [MongoDB](https://www.mongodb.com/)
 
 
