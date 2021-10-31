@@ -18,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Installing NPM modules on both client and server folders
 
-Execute these commands from the project directory
+Execute these commands from the project root directory
 
 ```
 npm install
