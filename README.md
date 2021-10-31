@@ -12,14 +12,36 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 * NPM / Yarn and Node.js installed
-* MongoDB
+* [MongoDB](https://www.mongodb.com/)
 
-## How To Run
-Create an MongoDB URI connection parameter in `/config.env` with your MongoDB URI:
+
+## Configuration (Optional)
+
+By default, the server will expect to connect to a MongoDB instance running on localhost:27017. However, you can customize the environment to use different values for the MongoDB host. To do that, you can create a `.env` file for specifying credential information for MongoDB. 
+
+Create a new file called `.env`, with the following properties:
+
 ```
-ATLAS_URI=mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+MONGO_URL=mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+MONGO_USER=username
+MONGO_PASSWORD=password
 PORT=5000
 ```
+
+or instead, you can use the equivalent JSON:
+
+```json
+{
+  "mongo": {
+    "url": "mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "user": "username",
+    "password": "password"
+    "port": "5000"
+  }
+}
+```
+
+Where the URL, username, and password are set to your preferences.
 
 ### Installing
 
