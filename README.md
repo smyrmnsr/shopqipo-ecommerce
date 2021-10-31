@@ -20,11 +20,11 @@ Installing NPM modules on both client and server folders
 Execute these commands from the project directory
 
 ```
-cd client && npm install
+npm install
 ```
 
 ```
-cd server && npm install
+cd client && npm install
 ```
 
 ### Running the app
